@@ -1,0 +1,338 @@
+ Date: 2/26/2020 10:35:05 AM
+asd
+---------------------------------------------
+
+ Date: 2/26/2020 11:12:11 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/26/2020 11:18:55 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/26/2020 11:19:05 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/26/2020 11:21:16 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/26/2020 11:21:51 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/26/2020 11:24:22 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/27/2020 2:44:13 PM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/27/2020 2:44:18 PM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/28/2020 7:53:19 AM
+Object reference not set to an instance of an object.
+---------------------------------------------
+
+ Date: 2/28/2020 7:53:43 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/28/2020 7:53:47 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/28/2020 7:54:36 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/28/2020 7:54:59 AM
+Value was either too large or too small for an Int32.
+---------------------------------------------
+
+ Date: 2/28/2020 7:55:15 AM
+Value was either too large or too small for an Int32.
+---------------------------------------------
+
+ Date: 2/28/2020 7:55:17 AM
+Value was either too large or too small for an Int32.
+---------------------------------------------
+
+ Date: 2/28/2020 7:55:18 AM
+Value was either too large or too small for an Int32.
+---------------------------------------------
+
+ Date: 2/28/2020 7:55:19 AM
+Value was either too large or too small for an Int32.
+---------------------------------------------
+
+ Date: 2/28/2020 7:59:37 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/28/2020 8:02:11 AM
+Value was either too large or too small for an Int32.
+---------------------------------------------
+
+ Date: 2/28/2020 8:09:55 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/28/2020 8:09:59 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/28/2020 8:15:33 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/28/2020 7:43:14 PM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/28/2020 7:43:31 PM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/28/2020 7:43:37 PM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 2/29/2020 10:29:18 AM
+Unknown column 'pay' in 'where clause'
+---------------------------------------------
+
+ Date: 2/29/2020 10:43:23 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(oid) VALUES('12')' at line 1
+---------------------------------------------
+
+ Date: 2/29/2020 12:30:15 PM
+Cannot add or update a child row: a foreign key constraint fails (`dbr`.`tbpayment`, CONSTRAINT `tbpayment_ibfk_1` FOREIGN KEY (`oid`) REFERENCES `tborder` (`oid`) ON DELETE CASCADE ON UPDATE CASCADE)
+---------------------------------------------
+
+ Date: 2/29/2020 12:31:30 PM
+Cannot add or update a child row: a foreign key constraint fails (`dbr`.`tbpayment`, CONSTRAINT `tbpayment_ibfk_1` FOREIGN KEY (`oid`) REFERENCES `tborder` (`oid`) ON DELETE CASCADE ON UPDATE CASCADE)
+---------------------------------------------
+
+ Date: 2/29/2020 12:32:15 PM
+Cannot add or update a child row: a foreign key constraint fails (`dbr`.`tbpayment`, CONSTRAINT `tbpayment_ibfk_1` FOREIGN KEY (`oid`) REFERENCES `tborder` (`oid`) ON DELETE CASCADE ON UPDATE CASCADE)
+---------------------------------------------
+
+ Date: 2/29/2020 5:12:05 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '81-51' for key 'oid'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at AppResturant.AppConfig.exc(String s) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\AppConfig.cs:line 44
+   at AppResturant.OrderDetail.insert() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\OrderDetail.cs:line 31
+   at AppResturant.UcRemain.btnAdd_Click(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcRemain.cs:line 134
+---------------------------------------------
+
+ Date: 2/29/2020 8:11:57 PM
+Value was either too large or too small for an Int32.
+---------------------------------------------
+
+ Date: 2/29/2020 10:41:59 PM
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AppResturant.UcRemain.setData() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcRemain.cs:line 31
+   at AppResturant.UcRemain.txtQty_KeyPress(Object sender, KeyPressEventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcRemain.cs:line 359
+---------------------------------------------
+
+ Date: 2/29/2020 10:42:17 PM
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AppResturant.UcRemain.setData() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcRemain.cs:line 31
+   at AppResturant.UcRemain.btnUpdate_Click(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcRemain.cs:line 159
+---------------------------------------------
+
+ Date: 2/29/2020 10:43:22 PM
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AppResturant.UcRemain.setData() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcRemain.cs:line 31
+   at AppResturant.UcRemain.txtQty_KeyPress(Object sender, KeyPressEventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcRemain.cs:line 359
+---------------------------------------------
+
+ Date: 2/29/2020 10:59:16 PM
+CrystalDecisions.Shared.CrystalReportsException: Load report failed. ---> System.Runtime.InteropServices.COMException: The maximum report processing jobs limit configured by your system administrator has been reached.
+   at CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   at CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   at CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   --- End of inner exception stack trace ---
+   at CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   at CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   at CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   at CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   at CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   at CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   at CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   at CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   at CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   at CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   at CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   at AppResturant.frmInvoice.InitializeComponent() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\frmInvoice.Designer.cs:line 43
+   at AppResturant.frmInvoice..ctor() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\frmInvoice.cs:line 17
+   at AppResturant.UcSale.print(Int32 copy) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcSale.cs:line 89
+   at AppResturant.UcSale.btnPrint_Click(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcSale.cs:line 296
+---------------------------------------------
+
+ Date: 2/29/2020 10:59:37 PM
+CrystalDecisions.Shared.CrystalReportsException: Load report failed. ---> System.Runtime.InteropServices.COMException: The maximum report processing jobs limit configured by your system administrator has been reached.
+   at CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   at CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   at CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   --- End of inner exception stack trace ---
+   at CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   at CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   at CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   at CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   at CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   at CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   at CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   at CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   at CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   at CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   at CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   at AppResturant.frmInvoice.InitializeComponent() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\frmInvoice.Designer.cs:line 43
+   at AppResturant.frmInvoice..ctor() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\frmInvoice.cs:line 17
+   at AppResturant.UcSale.print(Int32 copy) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcSale.cs:line 89
+   at AppResturant.UcSale.btnPrint_Click(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcSale.cs:line 296
+---------------------------------------------
+
+ Date: 2/29/2020 10:59:55 PM
+CrystalDecisions.Shared.CrystalReportsException: Load report failed. ---> System.Runtime.InteropServices.COMException: The maximum report processing jobs limit configured by your system administrator has been reached.
+   at CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   at CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   at CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   --- End of inner exception stack trace ---
+   at CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   at CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   at CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   at CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   at CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   at CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   at CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   at CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   at CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   at CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   at CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   at AppResturant.frmInvoice.InitializeComponent() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\frmInvoice.Designer.cs:line 43
+   at AppResturant.frmInvoice..ctor() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\frmInvoice.cs:line 17
+   at AppResturant.UcSale.print(Int32 copy) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcSale.cs:line 89
+   at AppResturant.UcSale.btnPrint_Click(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcSale.cs:line 296
+---------------------------------------------
+
+ Date: 3/1/2020 9:20:59 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 3/1/2020 9:23:48 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 3/1/2020 9:25:09 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 3/1/2020 9:26:00 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 3/1/2020 9:26:49 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 3/1/2020 9:27:09 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 3/1/2020 9:31:51 AM
+Input string was not in a correct format.
+---------------------------------------------
+
+ Date: 3/1/2020 10:16:56 AM
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AppResturant.AppConfig.getLogin(String user, String pass) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\AppConfig.cs:line 119
+   at AppResturant.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\frmLogin.cs:line 45
+---------------------------------------------
+
+ Date: 3/1/2020 10:18:05 AM
+System.InvalidOperationException: Connection must be valid and open.
+   at MySql.Data.MySqlClient.MySqlCommand.Throw(Exception ex)
+   at MySql.Data.MySqlClient.MySqlCommand.CheckState()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AppResturant.AppConfig.getLogin(String user, String pass) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\AppConfig.cs:line 119
+   at AppResturant.frmLogin.btnLogin_Click(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\frmLogin.cs:line 58
+---------------------------------------------
+
+ Date: 3/1/2020 10:18:32 AM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'user' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at AppResturant.AppConfig.getLogin(String user, String pass) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\AppConfig.cs:line 119
+   at AppResturant.frmLogin.btnLogin_Click(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\frmLogin.cs:line 58
+---------------------------------------------
+
+ Date: 3/5/2020 2:53:58 PM
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at AppResturant.UcRemain.setData() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcRemain.cs:line 32
+   at AppResturant.UcRemain.btnUpdate_Click(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcRemain.cs:line 169
+---------------------------------------------
+
+ Date: 3/5/2020 3:07:17 PM
+MySql.Data.MySqlClient.MySqlException (0x80004005): Column 'oid' in order clause is ambiguous
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at AppResturant.AppConfig.getDgv(DataGridView dgv, String query) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\AppConfig.cs:line 86
+   at AppResturant.UcRemain.refreshData() in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcRemain.cs:line 54
+   at AppResturant.UcRemain.btnUpdate_Click(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\UcRemain.cs:line 173
+---------------------------------------------
+
+ Date: 3/5/2020 8:26:15 PM
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AppResturant.frmMain.btnLogout_Click(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\Form1.cs:line 134
+---------------------------------------------
+
+ Date: 3/5/2020 8:28:06 PM
+System.InvalidOperationException: Form that is already visible cannot be displayed as a modal dialog box. Set the form's visible property to false before calling showDialog.
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at System.Windows.Forms.Form.ShowDialog()
+   at AppResturant.frmMain.btnLogout_Click(Object sender, EventArgs e) in E:\Application Devolopment\AppResturant\AppResturant\AppResturant\Form1.cs:line 134
+---------------------------------------------
+
